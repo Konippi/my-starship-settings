@@ -1,0 +1,26 @@
+[os]
+format = "[$symbol]($style)"
+disabled = false
+
+[os.symbols]
+Macos = " "
+
+[directory]
+truncation_length = 10
+truncate_to_repo = false
+home_symbol = ""
+
+[git_status]
+conflicted = "💥"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "📍"
+stashed = "📦"
+modified = "📝"
+staged = '🔦'
+renamed = "🏷"
+deleted = "🗑"
+
+[git_branch]
+symbol = "  "
